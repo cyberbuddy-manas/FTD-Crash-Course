@@ -1,0 +1,61 @@
+-- ftd.column:
+padding.px: 50
+border-width.px: 1
+background.solid: #eee
+width: fill-container
+height: fill-container
+spacing.fixed.px: 10
+
+-- box: What is component in FTD?
+
+Custom Components let's the user to turn their creativity into action. 
+Components help users to build exciting features for their projects including styles, 
+features, color-schemes, templates, typography etc.
+
+Components give scalability, efficiency as well as consistency to the design. 
+Once created can be used and reused as many times throughout the project as well as 
+can be used by others when published on GitHub. 
+
+-- box:
+
+-- box.title:
+
+About FTD 
+
+-- box.body:
+
+Custom Components let's the user to turn their creativity into action. 
+Components help users to build exciting features for their projects including styles, 
+features, color-schemes, templates, typography etc.
+
+-- box:
+
+-- end: ftd.column
+
+-- component box:
+caption title: Default Header
+body body: Default Body
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 10
+border-width.px: 4
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+border-bottom-width.px: 1
+padding.px: 10
+
+-- ftd.text: $box.title
+-- ftd.text: X
+
+-- end: ftd.row
+
+-- ftd.text: $box.body
+padding.px: 10
+height: hug-content
+
+-- end: ftd.column
+
+-- end: box

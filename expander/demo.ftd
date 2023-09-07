@@ -1,0 +1,35 @@
+-- import: fifthtry.github.io/doc-site as ds
+-- import: expander/assets
+-- import: gargajit.github.io/expander as e
+-- import: fifthtry.github.io/admonitions as cbox
+-- import: fastn-community.github.io/winter-cs
+
+-- ds.page: Demo Page
+site-logo: $assets.files.images.logo.png
+colors: $winter-cs.main
+
+Hey buddy! This is a demo page. Just `checking` if this page works. 
+Liking FTD till now, let's see what it holds for the future.
+
+-- ds.h1: My learnings about FTD.
+
+We have 2 basic files in a FTD package out of which, FASTN.ftd is mandatory.
+This page is created using 4 package files.
+- doc-site
+- expander
+- admonitions
+- color-scheme
+
+Some issues I faced that were not mentioned.
+- Space after --
+- Leaving lines after syntax.
+
+-- e.box: This is the expander.
+
+It contains text that will be displayed when the expander is toggled.
+
+-- cbox.info: Admonitions note
+
+This is an info box that will be displayed using the admonitions package.
+
+-- end: ds.page

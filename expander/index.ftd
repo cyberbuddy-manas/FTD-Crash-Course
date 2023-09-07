@@ -1,0 +1,6 @@
+-- ftd.text: Hey Cyberbuddies
+padding.px: 50
+border-width.px: 1
+background.solid: orange
+;; width: fill-container
+;; height: fill-container

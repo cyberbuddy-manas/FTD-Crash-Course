@@ -1,0 +1,29 @@
+-- ftd.column:
+padding.px: 50
+border-width.px: 1
+background.solid: #eee
+width: fill-container
+height: fill-container
+
+-- ftd.column:
+width: fill-container
+spacing.fixed.px: 10
+border-width.px: 4
+
+-- ftd.row:
+width: fill-container
+spacing: space-between
+border-bottom-width.px: 1
+padding.px: 10
+
+-- ftd.text: Header
+-- ftd.text: X
+
+-- end: ftd.row
+
+-- ftd.text: Body
+padding.px: 10
+
+-- end: ftd.column
+
+-- end: ftd.column
